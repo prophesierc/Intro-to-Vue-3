@@ -16,6 +16,9 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+             <img v-bind:src="image">
+            <!-- shorthand v-bind -->
+             <img :src="blue_image">
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
